@@ -1,0 +1,118 @@
+
+a{
+    display:block;
+    text-align:center;
+    padding:15px;
+    text-decoration:none;
+}
+
+/* link 1 */
+#link1{
+    background-color:#9bd3a9;
+}
+
+#link1 a{
+    color:red;
+}
+
+/* link 2 */
+#link2{
+    background-color:#666666;
+}
+
+#link2 a{
+    color:yellow;
+}
+
+/* link 3 */
+#link3{
+    background-color:black;
+}
+
+#link3 a{
+    color:white;
+}
+
+/* link states */
+
+a:visited{
+    opacity:0.8;
+}
+
+a:hover{
+    background-color:lightgray;
+}
+
+a:active{
+    background-color:orange;
+}
+
+h1{
+background-color:#d9d7b8;
+color:green;
+padding:10px;
+}
+
+h1{
+background-color:#5f9ea0;
+color:white;
+padding:10px;
+}
+
+ul{
+margin-left:20px;
+}
+
+body{
+    font-family: "Times New Roman", serif;
+    text-align: center;
+}
+
+.title-bold {
+    font-weight: bold;
+}
+
+.title-normal {
+    font-weight: normal;
+}
+
+/* الجدول الأول */
+.table1 {
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+
+.table1 th, td {
+     border: 3px double black;
+     border-collapse: collapse;
+}
+
+.table1 th {
+    font-weight: bold;
+}
+
+/* الجدول الثاني */
+.table2 {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 25px;
+    width: 800px;
+    text-align: center;
+}
+
+.table2 th,
+.table2 td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.table2 th {
+    font-weight: bold;
+}
+
+.table2 img {
+    width: 250px;
+    height: auto;
+}

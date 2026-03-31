@@ -20,6 +20,6 @@ import apps.bookmodule.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('books/', include('apps.bookmodule.urls')),
-    path('index2/<int:val1>/', apps.bookmodule.views.index2)  # add only this line
+    path('index2/<int:val1>/', apps.bookmodule.views.index2) 
 ]
 
