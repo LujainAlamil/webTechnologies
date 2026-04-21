@@ -1,0 +1,9 @@
+<h2>Books Ordered by Title</h2>
+
+<ul>
+    {% for book in books %}
+        <li>{{ book.title }}</li>
+    {% empty %}
+        <li>No books found</li>
+    {% endfor %}
+</ul>

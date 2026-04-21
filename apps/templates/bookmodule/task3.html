@@ -1,0 +1,9 @@
+<h2>Books (editions ≤ 3 and NOT contain "qu")</h2>
+
+<ul>
+    {% for book in books %}
+        <li>{{ book.title }} - {{ book.author }} - {{ book.editions }}</li>
+    {% empty %}
+        <li>No books found</li>
+    {% endfor %}
+</ul>

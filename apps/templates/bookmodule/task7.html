@@ -1,0 +1,19 @@
+<h2>Number of Students in Each City</h2>
+
+<table border="1">
+    <tr>
+        <th>City</th>
+        <th>Number of Students</th>
+    </tr>
+
+    {% for item in data %}
+    <tr>
+        <td>{{ item.address__city }}</td>
+        <td>{{ item.student_count }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="2">No data found</td>
+    </tr>
+    {% endfor %}
+</table>
